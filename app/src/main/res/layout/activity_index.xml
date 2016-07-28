@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="My Nanodegree Apps!" />
+            android:text="@string/title" />
 
         <Button
             android:id="@+id/button_popular_movies"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="Popular movies"
+            android:text="@string/popular_movies_button"
             android:onClick="onClick"
             android:textAllCaps="true" />
 
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="Stock hawk"
+            android:text="@string/stock_hawk_button"
             android:onClick="onClick"
             android:textAllCaps="true" />
 
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="build it bigger"
+            android:text="@string/button_3"
             android:textAllCaps="true"
             android:onClick="onClick"/>
 
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="make your app material"
+            android:text="@string/button_4"
             android:onClick="onClick"
             android:textAllCaps="true" />
 
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="go ubiquitous"
+            android:text="@string/button_5"
             android:onClick="onClick"
             android:textAllCaps="true" />
 
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="capstone"
+            android:text="@string/button_6"
             android:onClick="onClick"
             android:textAllCaps="true" />
     </TableLayout>
